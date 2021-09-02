@@ -48,7 +48,6 @@ function Messagebox() {
 
   return (
     <div className="warper">
-      {id}
       <ListGroup>
         {(messageList[id] || []).map((d) => (
           <ListGroupItem>
